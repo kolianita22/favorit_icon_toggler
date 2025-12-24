@@ -1,0 +1,27 @@
+.favorite-icon {
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+/* Filled heart style */
+.filled {
+  color: red;
+  animation: pop 0.3s ease;
+}
+
+/* Heart pop animation */
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
